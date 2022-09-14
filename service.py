@@ -30,7 +30,7 @@ CORS(app)
 #Vars
 global model
 
-model = load_model('model_128_128.h5')
+model = load_model('../model_128_128.h5')
 
 #Functions
 def allowed_file(filename):
